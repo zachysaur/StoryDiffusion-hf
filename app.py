@@ -795,4 +795,5 @@ with gr.Blocks(css=css) as demo:
 
     # demo.load(None, None, None, _js=load_js)
 
-demo.launch(server_name="0.0.0.0", share = False if use_va else False)
+demo.launch(server_name="localhost", share=False)
+
